@@ -12,7 +12,7 @@ COPY ./ /int/dockerapp
 
 ARG JAR_FILE=target/hw11-0.0.1-SNAPSHOT.jar
 
-ADD ${JAR-FILE} hw13.jar
+ADD ${JAR_FILE} hw13.jar
 
 EXPOSE 8080
 
